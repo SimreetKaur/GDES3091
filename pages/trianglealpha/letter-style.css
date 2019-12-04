@@ -1,0 +1,736 @@
+.letter {
+
+	width:200px; /*resize as you see fit */
+	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+	border:1px solid #000; /*feel free to remove or hide this rule */
+	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+	top: 70px;
+	width: 140px;
+	position: relative;
+	vertical-align: center;
+}
+
+.letter-a {
+	position: relative;
+}
+
+.maintriangle {
+	position: absolute;
+	width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 150px solid blue;
+    opacity: 0.7;
+}
+
+.letter-b {
+	position: relative;
+}
+
+ .bottomB {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid blue;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    top: 45px;
+    left:25px;
+    opacity: 0.7;
+ }
+
+.topB {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid blue;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    left: 25px;
+    opacity: 0.7;
+ }
+
+.letter-c {
+	position:relative;
+}
+
+.letter-c .maintriangle {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 100px solid blue;
+    position: absolute;
+    top: 50px;
+    opacity: 0.7;
+}
+
+.toptriangleC {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 100px solid blue;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.letter-d {
+	position: relative;
+}
+
+.letter-d .maintriangle {	
+    border-top: 80px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.letter-e {
+	position: relative;
+}
+
+.topE {
+	border-top: 40px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.middleE {
+	border-top: 40px solid transparent;
+    border-left: 50px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    opacity: 0.7;
+}
+
+.bottomE {
+	border-top: 40px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    opacity: 0.7;
+}
+
+.letter-f {
+	position: relative;
+}
+
+.topF {
+	border-top: 40px solid transparent;
+    border-left: 115px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.middleF {
+	border-top: 40px solid transparent;
+    border-left: 50px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    top: 40px;
+    opacity: 0.7;
+}
+
+.bottomstrokeF {
+	width: 13px;
+    height: 60px;
+    background: blue;
+    position: absolute;
+    top:100px;
+    opacity: 0.7;
+}
+
+.letter-g {
+	position:relative;
+}
+
+.letter-g .maintriangle {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 100px solid blue;
+    position: absolute;
+    top: 50px;
+    opacity: 0.7;
+}
+
+.toptriangleG {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 100px solid blue;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.smalltriangleG {
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 45px solid blue;
+    position: absolute;
+    left: 80px;
+    top: 105px;
+    opacity: 0.7;
+}
+
+.letter-h {
+	position: relative;
+}
+
+.leftH {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 80px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.rightH {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 80px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 40px;
+    opacity: 0.7;
+}
+
+.letter-i {
+	position: relative;
+}
+
+.letter-i .maintriangle {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 150px solid blue;
+    position: absolute;
+    left: 45px;
+    opacity: 0.7;
+}
+
+.letter-j {
+	position: relative;
+}
+
+.rightJ {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 150px solid blue;
+    position: absolute;
+    left: 65px;
+    opacity: 0.7;
+}
+
+.leftJ {
+    width: 0;
+    height: 0;
+    border-left: 00px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 40px solid blue;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    opacity: 0.7;
+}
+
+.letter-k {
+	position: relative;
+}
+
+.topK {
+	width: 0;
+    height: 0;
+    border-top: 155px solid blue;
+    border-right: 100px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.bottomK {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 140px solid blue;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.letter-l {
+	position: relative;
+}
+
+.leftL {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 30px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.bottomL {
+	width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 40px solid blue;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.letter-m {
+	position: relative;
+}
+
+.leftM {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 150px solid blue;
+    position: absolute;
+    left: 15px;
+    opacity: 0.7;
+}
+
+.rightM {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 150px solid blue;
+    position: absolute;
+    left: 55px;
+    opacity: 0.7;
+}
+
+.letter-n {
+	position: relative;
+}
+
+.rightN {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7
+}
+
+.leftN {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 150px solid blue;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.letter-o {
+	position: relative;
+}
+
+.topO {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid blue;
+    position: absolute;
+    left: 25px;
+    opacity: 0.7;
+}
+
+.bottomO {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 70px solid blue;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    opacity: 0.7
+}
+
+.letter-p {
+	position: relative;
+}
+
+.topP {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.leftP {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 30px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.letter-q {
+	position: relative;
+}
+
+.topQ {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 70px solid blue;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.bottomQ {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 70px solid blue;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.pointQ {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 35px solid blue;
+    position: absolute;
+    left: 68px;
+    top: 90px;
+    opacity: 0.7;
+}
+
+.letter-r {
+	position: relative;
+}
+
+.topR {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.leftR {
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 30px solid blue;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.rightR {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 90px solid blue;
+    position: absolute;
+    left: 60px;
+    top: 65px;
+    opacity: 0.7;
+}
+
+.letter-s {
+	position: relative;
+}
+
+.topS {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.middleS {
+    border-top: 30px solid transparent;
+    border-left: 30px solid blue;
+    border-bottom: 77px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    opacity: 0.7;
+    transform: rotate(-70deg);
+}
+
+.bottomS {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    top: 85px;
+    opacity: 0.7;
+}
+
+.letter-t {
+	position: relative;
+}
+
+.topleftT {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.toprightT {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.strokeT {
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 150px solid blue;
+    position: absolute;
+    left: 50px;
+    opacity: 0.7;
+}
+
+.letter-u {
+	position: relative;
+}
+
+.rightU {
+	width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.leftU {
+	width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.leftstrokeU {
+	width: 0;
+    height: 0;
+    border-top: 140px solid transparent;
+    border-left: 30px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.rightstrokeU {
+	width: 0;
+    height: 0;
+    border-top: 140px solid transparent;
+    border-right: 30px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: 90px;
+    opacity: 0.7;
+}
+
+.letter-v {
+	position: relative;
+}
+
+.mainV {
+	border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 130px solid blue;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.letter-w{
+	position: relative;
+}
+
+.leftW {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 130px solid blue;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.rightW {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 130px solid blue;
+    position: absolute;
+    left: 30px;
+    opacity: 0.7;
+}
+
+.letter-x {
+	position: relative;
+}
+
+.topX {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid blue;
+    position: absolute;
+    left: 10px;
+    opacity: 0.7;
+}
+
+.bottomX {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 120px solid blue;
+    position: absolute;
+    left: 10px;
+    opacity: 0.7;
+}
+
+.letter-y {
+	position: relative;
+}
+
+.topY {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 70px solid blue;
+    position: absolute;
+    left: 30px;
+    opacity: 0.7;
+}
+
+.strokeY {
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 150px solid blue;
+    position: absolute;
+    left: 60px;
+    opacity: 0.7;
+}
+
+.letter-z {
+	position: relative;
+}
+
+.topZ {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 110px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.7;
+}
+
+.middleZ {
+    border-top: 30px solid transparent;
+    border-right: 30px solid blue;
+    border-bottom: 77px solid transparent;
+    position: absolute;
+    top: 22px;
+    left: 60px;
+    opacity: 0.7;
+    transform: rotate(251deg);
+}
+
+.bottomZ {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    top: 78px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+
+
+

@@ -1,0 +1,545 @@
+body {
+	width: 100vh;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: Roboto, sans-serif;
+	font-size: 70px;
+	font-weight: 100;
+	text-align: center;
+	line-height: 1.2em;
+	position: relative;
+	top: 20px;
+	opacity: 0.7;
+}
+
+h3 {
+	position: relative;
+	top: 330px;
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 100;
+	text-align: center;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+h4 {
+	position: relative;
+	top: 300px;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+
+
+h5 {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	font-weight: 100 lighter;
+	line-height: 23px;
+	text-align: center;
+	position: relative;
+	bottom: 35px;
+
+}
+
+h2 {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 100 lighter;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 50px;
+
+}
+
+h6 {
+	font-family: Roboto, sans-serif;
+	font-size: 35px;
+	font-weight: 100 lighter;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: -30px;
+}
+
+p {
+	font-family: Roboto, sans-serif, bold;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+
+}
+
+#white {
+	color: white;
+}
+
+.crossout{
+	text-decoration: line-through;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: black; 
+}
+
+#backgroundtwo {
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: white; 
+}
+
+#backgroundthree {
+    position: absolute;
+    top: 1300px;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background-color: black; 
+}
+
+#backgroundfour {
+    position: absolute;
+    top: 1900px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: white; 
+}
+
+#info {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 100 lighter;
+	text-align: center;
+	position: relative;
+	top: -120px;
+}
+
+#info2 {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 100 lighter;
+	text-align: center;
+	position: relative;
+	top: -125px;
+}
+
+#position {
+	position: relative;
+	top: 280px;
+}
+
+.containerA {
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	left: -450px;
+	top: -50px;
+	vertical-align: center;
+}
+
+.containerB {
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	left: 0px;
+	top: -165px;
+	vertical-align: center;
+}
+
+.containerC {
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	left: 450px;
+	top: -280px;
+	vertical-align: center;
+}
+
+#StudioHead {
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: underline;
+/*	font-weight: bolder; 
+	letter-spacing: 2px */
+}
+
+#footer {
+	font-size: 16px;
+	position: relative;
+	top: -40px;
+}
+
+/*Letter T*/
+
+.letter-t {
+	position: relative;
+	bottom: 70px;
+	left: 330px;
+}
+
+.topleftT {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 100px solid white;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.toprightT {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.toprightT:hover {
+	width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 100px solid orange;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.strokeT {
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 160px solid white;
+    position: absolute;
+    left: 50px;
+    opacity: 0.9;
+}
+
+.strokeT:hover {
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 160px solid yellow;
+    position: absolute;
+    left: 50px;
+    opacity: 0.9;
+}
+
+/*Letter H*/
+
+.letter-h {
+	position: relative;
+	bottom: 70px;
+	left: 465px;
+}
+
+.leftH {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 80px solid white;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.leftH:hover {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 80px solid red;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.rightH {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 80px solid white;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 40px;
+    opacity: 0.9;
+}
+
+.rightH:hover {
+	width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 80px solid green;
+    border-bottom: 80px solid transparent;
+    position: absolute;
+    left: 40px;
+    opacity: 0.9;
+}
+
+/*Letter E*/
+
+.letter-e {
+	position: relative;
+	bottom: 70px;
+	left: 580px;
+}
+
+.topE {
+	border-top: 40px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.topE:hover {
+	border-top: 40px solid transparent;
+    border-left: 100px solid blue;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.middleE {
+	border-top: 40px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    opacity: 0.9;
+}
+
+.bottomE {
+	border-top: 40px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    opacity: 0.9;
+}
+
+.bottomE:hover {
+	border-top: 40px solid transparent;
+    border-left: 100px solid purple;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    opacity: 0.9;
+}
+
+/*Letter W*/
+
+.letter-w{
+	position: relative;
+	bottom: 70px;
+	left: 760px;
+}
+
+
+.leftW {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 160px solid white;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.leftW:hover {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 160px solid pink;
+    position: absolute;
+    opacity: 0.9;
+}
+
+
+.rightW {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 160px solid white;
+    position: absolute;
+    left: 30px;
+    opacity: 0.9;
+}
+
+.rightW:hover {
+	border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 160px solid yellow;
+    position: absolute;
+    left: 30px;
+    opacity: 0.9;
+}
+
+/*Second Letter E*/
+
+.letter-e2 {
+	position: relative;
+	bottom: 70px;
+	left: 900px;
+}
+
+.topE2 {
+	border-top: 40px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.topE2:hover {
+	border-top: 40px solid transparent;
+    border-left: 100px solid cyan;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    opacity: 0.9;
+}
+
+.middleE2 {
+	border-top: 40px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    opacity: 0.9;
+}
+
+.bottomE2 {
+	border-top: 40px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    opacity: 0.9;
+}
+
+.bottomE2:hover {
+	border-top: 40px solid transparent;
+    border-left: 100px solid orange;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    opacity: 0.9;
+}
+
+/*Letter B*/
+
+.letter-b {
+	position: relative;
+	bottom: 70px;
+	left: 1010px;
+}
+
+ .bottomB {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid white;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    top: 45px;
+    left:25px;
+    opacity: 0.9;
+ }
+
+  .bottomB:hover {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid red;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    top: 45px;
+    left:25px;
+    opacity: 0.9;
+ }
+
+.topB {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid white;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    left: 25px;
+    opacity: 0.9;
+ }
+
+ .topB:hover {    
+    border-top: 55px solid transparent;
+    border-left: 90px solid yellow;
+    border-bottom: 55px solid transparent;
+    position: absolute;
+    left: 25px;
+    opacity: 0.9;
+ }
+
+.titlecontainer {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	right: 400px;
+	top: -90px;
+	vertical-align: center;
+	position: relative;
+	transform: scale(1.7);
+	opacity: 0.7;
+}
+
+/*.maincontainer {
+	width: 1800px;
+	height: 2000px;
+	position: absolute;
+}*/
+
+#fontsize {
+	font-size: 25px;
+}
+
+
